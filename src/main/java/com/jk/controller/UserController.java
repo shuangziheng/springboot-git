@@ -1,6 +1,8 @@
 package com.jk.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.stereotype.Controller;
+
 
 /**
  * description: UserController <br>
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * author: shuang <br>
  * version: 1.0 <br>
  */
+@Controller
 public class UserController {
 
     @RequestMapping("/hello")
